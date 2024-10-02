@@ -67,8 +67,8 @@ jobs:
       - name: Upload MacOS artifacts
         uses: actions/upload-artifact@v3.1.3
         with:
-          name: OpenTabletDriver osx-x64
-          path: build/osx-x64
+          name: OpenTabletDriver osx-arm64
+          path: build/osx-arm64
 
   linter:
     name: Lint Code
